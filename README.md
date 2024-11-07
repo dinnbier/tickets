@@ -12,6 +12,8 @@ El proceso consta de dos fases principales:
 
 ## Fase 1: Guardado Automático de Tickets en Google Drive
 
+
+
 En esta primera fase, he utilizado Google Apps Script para acceder a mi cuenta de Gmail y almacenar automáticamente los archivos PDF de los tickets en una carpeta específica de Google Drive. A continuación se muestra el código en JavaScript que se ejecuta en Google Apps Script para lograr este objetivo.
 Los scripts de Google Apps se pueden ejecutar empleando temporizadores. El temporizador que he asociado en este caso se ejecuta cada 15 min, de modo que transcurrido ese tiempo tendremos todos los tickets de mercadona en la carpeta de Drive.
 
